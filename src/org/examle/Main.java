@@ -14,4 +14,19 @@ public class Main {
         System.out.println("Second part of the word: "+secondPart);
         System.out.println("Whole word is "+firstPart+" "+secondPart);
     }
-}
+    public int getResult(int a, int b) {
+        int c = a * b;
+        return c;
+    }
+
+
+    public static int getResultInt(int a, int b){
+        int f=a/b;
+        return f;
+
+    }
+
+
+    }
+
+
